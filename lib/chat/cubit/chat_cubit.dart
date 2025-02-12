@@ -1,4 +1,3 @@
-import 'package:chat_project/chat/cubit/chat_state.dart';
 import 'package:chat_project/export.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart'; // ✅ استيراد FirebaseAuth
@@ -53,8 +52,8 @@ class ChatCubit extends Cubit<ChatState> {
       'senderId': senderId,
       'receiverId': receiverId,
       'chatId': chatId, // ✅ تحديد المحادثة
+      //klasalkdsa
     });
-
     emit(MessageSentSuccess());
   }
 
